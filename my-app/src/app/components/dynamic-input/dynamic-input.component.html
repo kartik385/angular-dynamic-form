@@ -1,0 +1,7 @@
+<div>
+  <div>
+    <div *ngFor="let user of usersArray; let i = index">
+      <app-input-type [formGroup]="formGroup" [user]="user"></app-input-type>
+    </div>
+  </div>
+</div>
